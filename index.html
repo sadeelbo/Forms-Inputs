@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Sign Up</legend>
+        <label for="Name">Full Name :</label>
+        <input type="text" id="Name" minlength="5" maxlength="30" placeholder="user name">
+        <br>
+
+        <label for="Email">Email :</label>
+        <input type="email"  id="Email" placeholder="user@email.com" autocomplete="email" required>
+        <br>
+
+        <label for="Password">Password :</label>
+        <input type="password" id="Password" minlength="8" placeholder="********" required>
+        <br>
+
+        <label for=" Phone"> Phone :</label>
+        <input type="tel" id=" Phone" placeholder="059*******">
+        <br>
+
+        <label for="Website">Website :</label>
+        <input type="url" id="Website" placeholder="example.come">
+        <br>
+
+        <label for="Birth Date">Birth Date :</label>
+        <input type="date" min="2000-01-01" max="2026-03-25">
+        <br>        
+
+        <p  style="display:inline ;">Gender :</p>
+        <input type="radio" id="female" name="Gender" >
+        <label for="female" >female</label>
+
+        <input type="radio" id="male" name="Gender">
+        <label for="male" >male</label>
+
+        <input type="radio" id="other" name="Gender">
+        <label for="other" >other</label>
+        <br>
+
+        <p  style="display:inline ;">Newsletter :</p>
+        <input type="checkbox" name="Newsletter" id="Newsletter">
+        <label for="Newsletter">subscribe</label>
+        <br>
+
+        <label for="Country">country</label>
+        <select name="Country" id="Country">
+
+            <option selected value="Pal">palestine</option>
+            <option value="egy">egypt</option>
+            <option value="jor">jordan</option>
+            <option value="yam">yamen</option>
+
+        </select>
+        <br>
+
+        <label for="Favorite Language">favorite language</label>
+        <input list="Favorite Language" name="Favorite Language">
+        <datalist id="Favorite Language">
+
+            <option value="Banan">
+            <option value="Orange">
+            <option value="Cucamber">
+            <option value="Grap">
+            <option value="Grap2">
+            <option value="Grap3">
+
+        </datalist>
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </fieldset>  
+    </form>
+    
+
+</body>
+</html>
